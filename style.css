@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Cloister;
+    src: url(CloisterBlack.ttf);
+}
+
+@font-face {
+    font-family: Gothik;
+    src: url(Grabstein\ Gotik.otf);
+}
+
+body {
+    background-color: #1A1A1B;
+}
+
+h1 {
+    font-family: Cloister;
+    color:#b0c4de;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    font-family:G Gothik;
+    color: #e0e0e0;
+}
