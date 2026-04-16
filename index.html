@@ -1,7 +1,9 @@
-<!--Gothic website about magic and dragons
+<!--
+Gothic website about magic and dragons
 Ryan Johnson
 April 15 2026
-Extra alskhdfiwalowjhdkslahfldashfe-->
+Extra: Button that shows text when it's clicked
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +11,21 @@ Extra alskhdfiwalowjhdkslahfldashfe-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic and Dragons</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="javaScript.js"></script>
 </head>
 <body>
     <h1>Dragons and Magic</h1>
-    <div class="dragonImage">
-    <img src="dwagon.png" alt="A super skibidi dragon" width="500">
+    <div class="dwagon">
+    <img src="dwagon.png" alt="A super skibidi dragon" width="800">
     <p>Super tuff wizard dragon</p>
 </div>
+<p class="words">Dragons are pretty tuff and magic is also pretty cool. But when you combine wizards and dragons you get the most sigma creatures ever. Wizard dragons can not only breathe fire but they can also cast fire spells for extra aura. Wizard dragons mog on both normal dragons and wizards. They are creatures that can only be found in whimsical places such as Ohio.</p>
+
+<!-- Extra: this creates a button and hidden text -->
+ <button id="button" onclick="show()">Click Me</button>
+ <!-- making it an id lets the javascript file access it -->
+<p id="text" style="display:none;">67</p>
+
     
 </body>
 </html>

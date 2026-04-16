@@ -4,22 +4,43 @@
 }
 
 @font-face {
-    font-family: Gothik;
-    src: url(Grabstein\ Gotik.otf);
+    font-family: labyrinthe;
+    src: url(Le\ Labyrinthe\ des\ Chevaliers.ttf);
 }
 
 body {
-    background-color: #1A1A1B;
+    background-color: #0a0e14;
 }
 
 h1 {
     font-family: Cloister;
-    color:#b0c4de;
+    color: #b0c4de;
     text-align: center;
     font-size: 50px;
 }
 
 p {
-    font-family:G Gothik;
+    font-family: labyrinthe;
     color: #e0e0e0;
+}
+
+.dwagon {
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    /* Vertical aligns the image to the top so that whatever is next to it is aligned to the top of it aswell */
+    vertical-align: top;
+}
+
+/* Adding p lets you change the paragraph of a class */
+.dwagon p {
+    color: #9370db;
+}
+
+.words {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-top: 50px;
 }
